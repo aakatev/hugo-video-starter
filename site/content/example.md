@@ -31,22 +31,22 @@ npm i
 npm start
 ```
 
-### How Does it Work? 
+For the other available scripts refer to the `package.json`, or [Victor Hugo](https://github.com/netlify-templates/victor-hugo) repository.
+
+### Usage in MD File
 
 The player element can be added to your markdown, like so:
 
 ```md
 
-### This is MD file
+### This is some MD file
 
 {{</* video "http://example.com/video" "my-class-name" */>}}
 ```
 
-The player element is created using Hugo (shorthands)[https://gohugo.io/content-management/shortcodes/].
+The player element is created using Hugo [shorthands](https://gohugo.io/content-management/shortcodes).
 
 ---
-
-For more scripts refer to the `package.json`, or (Victor Hugo)[https://github.com/netlify-templates/victor-hugo] repository.
 
 ### Enjoy!! 😸
 

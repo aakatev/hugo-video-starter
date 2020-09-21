@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/example/</loc>
+    <loc>https://aakatev.github.io/hugo-video-starter/example/</loc>
     <lastmod>2020-09-20T19:02:50-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://aakatev.github.io/hugo-video-starter/</loc>
   </url>
   
 </urlset>

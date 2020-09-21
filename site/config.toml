@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://aakatev.github.io/hugo-video-starter/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Hugo Video Starter"

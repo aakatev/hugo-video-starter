@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <base href="/">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <title>Hugo Video Starter</title>
+
+  
+  
+    <link href="/main.9009c.css" rel="stylesheet">
+  
+</head>
+
+<body class="min-vh-100">
+
+  <nav class="fixed-top navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a href="/" class="navbar-brand mb-0 h1">Hugo Video Starter</a>
+  </div>
+</nav>
+
+   
+<main class="container mt-5 pt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-6">
+      <div>
+        <h2 class="pb-3">Usage Example</h2><p>Out of the box, Hugo has support for Youtube and Vimeo, but lacks the support for the media coming from any other resources. This is a starter for using <a href="https://gohugo.io/">Hugo</a> with various media files from various resources. It is using <a href="https://github.com/clappr/clappr">Clappr</a>.</p>
+<p>Clappr is an extensible media player for the web. Your architecture is projected primarily into plugins, adding low accoupling by design to the project and the possibility to add infinitely features easily.</p>
+<div class="container">
+  <div id="player-wrapper" class="d-flex justify-content-center my-5"></div>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"></script>
+<script>
+  var playerElement = document.getElementById("player-wrapper");
+
+  var player = new Clappr.Player({
+    source: "http://clappr.io/highline.mp4",
+    mute: true,
+    height: 360,
+    width: 640
+  });
+  
+  player.attachTo(playerElement);  
+</script>
+<h3 id="insallation">Insallation</h3>
+<ol>
+<li>Clone the repo:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/aakatev/hugo-video-starter.git
+</code></pre></div><ol start="2">
+<li>Install dependencies:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm i
+</code></pre></div><ol start="3">
+<li>Start developing:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm start
+</code></pre></div><h3 id="how-does-it-work">How Does it Work?</h3>
+<p>The player element can be added to your markdown, like so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">
+<span style="color:#75715e">### This is MD file
+</span><span style="color:#75715e"></span>
+{{&lt; <span style="color:#f92672">video</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">http:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">example</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">video</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">my-class-name</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</code></pre></div><p>The player element is created using Hugo (shorthands)[https://gohugo.io/content-management/shortcodes/].</p>
+<hr>
+<p>For more scripts refer to the <code>package.json</code>, or (Victor Hugo)[https://github.com/netlify-templates/victor-hugo] repository.</p>
+<h3 id="enjoy-">Enjoy!! 😸</h3>
+<p><a href="/">Back Home</a></p>
+</div>
+    </div>  
+  </div>
+</main>
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  
+  
+    <script src="/main.9009c.js"></script>
+  
+</body>
+
+</html>

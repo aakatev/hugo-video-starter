@@ -9,9 +9,9 @@ Out of the box, Hugo has support for Youtube and Vimeo, but lacks the support fo
 
 Clappr is an extensible media player for the web. Your architecture is projected primarily into plugins, adding low accoupling by design to the project and the possibility to add infinitely features easily.
 
-{{< video "http://clappr.io/highline.mp4" "d-flex justify-content-center my-5">}}
+{{< video "http://clappr.io/highline.mp4" "d-flex justify-content-center my-5" >}}
 
-### How to Use?
+### Insallation
 
 1. Clone the repo:
 
@@ -31,9 +31,22 @@ npm i
 npm start
 ```
 
-For more scripts refer to the `package.json`, or [Victor Hugo](https://github.com/netlify-templates/victor-hugo) repository.
+### How Does it Work? 
+
+The player element can be added to your markdown, like so:
+
+```md
+
+### This is MD file
+
+{{</* video "http://example.com/video" "my-class-name" */>}}
+```
+
+The player element is created using Hugo (shorthands)[https://gohugo.io/content-management/shortcodes/].
 
 ---
+
+For more scripts refer to the `package.json`, or (Victor Hugo)[https://github.com/netlify-templates/victor-hugo] repository.
 
 ### Enjoy!! 😸
 

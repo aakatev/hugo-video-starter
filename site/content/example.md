@@ -49,5 +49,3 @@ The player element is created using Hugo [shorthands](https://gohugo.io/content-
 ---
 
 ### Enjoy!! 😸
-
-[Back Home](/)

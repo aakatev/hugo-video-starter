@@ -9,7 +9,7 @@ Out of the box, Hugo has support for Youtube and Vimeo, but lacks the support fo
 
 Clappr is an extensible media player for the web. Your architecture is projected primarily into plugins, adding low accoupling by design to the project and the possibility to add infinitely features easily.
 
-{{< video "http://clappr.io/highline.mp4" "d-flex justify-content-center my-5" >}}
+{{< video "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8" "d-flex justify-content-center my-5" >}}
 
 ### Insallation
 
